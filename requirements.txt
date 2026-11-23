@@ -1,0 +1,15 @@
+# Face Recognition Attendance System - requirements
+# No dlib / face_recognition / CMake / C++ build tools needed.
+# Tested target: Python 3.11+ on Windows (CPU only).
+
+opencv-python==4.10.0.84
+deepface==0.0.93
+
+# Pinned to the last TensorFlow release that still ships the classic
+# (Keras 2) API deepface expects out of the box, avoiding the extra
+# tf-keras shim required by TensorFlow 2.16+ / Keras 3.
+tensorflow==2.15.0
+
+numpy==1.26.4
+pandas==2.2.2
+Pillow==10.3.0

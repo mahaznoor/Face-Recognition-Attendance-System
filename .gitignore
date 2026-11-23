@@ -1,0 +1,41 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Database (keep schema via code, not the binary db file)
+database/attendance.db
+
+# Trained model & captured data (regenerate locally / keep out of git history)
+trained_model/*.pickle
+dataset/*/
+!dataset/.gitkeep
+
+# Attendance exports and screenshots
+attendance/*.csv
+screenshots/*.jpg
+screenshots/*.png
+!attendance/.gitkeep
+!screenshots/.gitkeep
+
+# Logs
+app.log
+*.log
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+.kilo/
